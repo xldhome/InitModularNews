@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="oil">
+        <item>1中石油</item>
+        <item>2中石化</item>
+        <item>3中海油</item>
+        <item>4社会站</item>
+    </string-array>
+
+    <string-array name="pumpMode">
+        <item>1自吸泵</item>
+        <item>2潜泵</item>
+    </string-array>
+</resources>

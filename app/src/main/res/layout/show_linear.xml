@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#87ceeb"
+        android:gravity="center_horizontal"
+        android:weightSum="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/label"
+            android:textSize="20sp"/>
+
+        <TableLayout
+            android:layout_width="251dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:stretchColumns="*"
+            android:padding="2dp">
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label1" />
+                <EditText
+                    android:id="@+id/edit_1"
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label2" />
+
+                <EditText
+                    android:id="@+id/edit_2"
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label3" />
+                <EditText
+                    android:id="@+id/edit_3"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label4" />
+                <EditText
+                    android:id="@+id/edit_4"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label5" />
+                <EditText
+                    android:id="@+id/edit_5"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label6" />
+                <Spinner
+                    android:id="@+id/edit_6"
+                    android:layout_width="10dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:entries="@array/oil"
+
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label7" />
+                <EditText
+                    android:id="@+id/edit_7"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label8" />
+                <EditText
+                    android:id="@+id/edit_8"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label9" />
+                <EditText
+                    android:id="@+id/edit_9"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label10" />
+
+                <EditText
+                    android:id="@+id/edit_10"
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label11" />
+                <EditText
+                    android:id="@+id/edit_11"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true"/>
+            </TableRow>
+        </TableLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="2dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/label0"
+                    android:textSize="20sp"/>
+        <TableLayout
+            android:layout_width="251dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:stretchColumns="*"
+            android:padding="2dp">
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label01" />
+                <EditText
+                    android:id="@+id/edit_02"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label02" />
+                <EditText
+                    android:id="@+id/edit_03"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label03" />
+
+                <EditText
+                    android:id="@+id/edit_04"
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label04" />
+                <Spinner
+                    android:id="@+id/edit_06"
+                    android:layout_width="10dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:entries="@array/pumpMode"
+                   />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label05" />
+                <EditText
+                    android:id="@+id/edit_07"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label06" />
+                <EditText
+                    android:id="@+id/edit_08"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label07" />
+                <EditText
+                    android:id="@+id/edit_09"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label08" />
+                <EditText
+                    android:id="@+id/edit_010"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label09" />
+                <EditText
+                    android:id="@+id/edit_011"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label010" />
+                <EditText
+                    android:id="@+id/edit_012"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow>
+            <TextView
+                android:layout_width="1dip"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/label011" />
+            <EditText
+                android:id="@+id/edit_014"
+                android:layout_width="1dip"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shape"
+                android:inputType="none"
+                android:singleLine="true" />
+        </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label012" />
+                <EditText
+                    android:id="@+id/edit_015"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label013" />
+                <EditText
+                    android:id="@+id/edit_016"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label012" />
+                <EditText
+                    android:id="@+id/edit_017"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label014" />
+                <EditText
+                    android:id="@+id/edit_018"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label012" />
+                <EditText
+                    android:id="@+id/edit_019"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label015" />
+                <EditText
+                    android:id="@+id/edit_020"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label012" />
+                <EditText
+                    android:id="@+id/edit_021"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label016" />
+                <EditText
+                    android:id="@+id/edit_022"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label012" />
+                <EditText
+                    android:id="@+id/edit_023"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label017" />
+                <EditText
+                    android:id="@+id/edit_024"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label012" />
+                <EditText
+                    android:id="@+id/edit_025"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label018" />
+                <EditText
+                    android:id="@+id/edit_026"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label012" />
+                <EditText
+                    android:id="@+id/edit_027"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label019" />
+                <EditText
+                    android:id="@+id/edit_028"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="1dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/label012" />
+                <EditText
+                    android:id="@+id/edit_029"
+                    android:layout_width="1dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape"
+                    android:inputType="none"
+                    android:singleLine="true" />
+            </TableRow>
+
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/request"
+            android:onClick="Listener"/>
+    </LinearLayout>
+
+
+</ScrollView>
